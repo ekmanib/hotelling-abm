@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "hotelling"
+version = "0.1.0"
+description = ""
+authors = ["ekmanib <ej.mantilla.ibarra@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+abses = "^0.1.3"
+ipykernel = "^6.25.2"
+jupyterlab = "^4.0.7"
+rioxarray = "^0.15.0"
+mesa = "^2.1.2"
+seaborn = "^0.13.0"
+ipython = "^8.16.1"
+numpy = "^1.26.1"
+ptpython = "^3.0.23"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.26.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
